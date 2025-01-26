@@ -1,9 +1,9 @@
 {
     "format_version": 2,
-    "tooth": "MSeries",
-    "version": "0.0.0",
+    "tooth": "MForceAchievements",
+    "version": "1.0.0",
     "info": {
-        "name": "MSeries",
+        "name": "MForceAchievements",
         "description": "My Mod Description",
         "author": "mrmagic2020",
         "tags": [
@@ -13,15 +13,15 @@
             "m-series"
         ]
     },
-    "asset_url": "https://github.com/mrmagic2020/MSeries/releases/download/v$(version)/MSeries-windows-x64.zip",
+    "asset_url": "https://github.com/mrmagic2020/MForceAchievements/releases/download/v$(version)/MForceAchievements-windows-x64.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": ">=1.0.0"
     },
     "files": {
         "place": [
             {
-                "src": "MSeries/*",
-                "dest": "plugins/MSeries/"
+                "src": "MForceAchievements/*",
+                "dest": "plugins/MForceAchievements/"
             }
         ]
     }

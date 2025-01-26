@@ -2,15 +2,15 @@
 
 #include <ll/api/mod/NativeMod.h>
 
-namespace mseries
+namespace mfa
 {
 
-class MSeries
+class MForceAchievements
 {
 public:
-    static MSeries& getInstance();
+    static MForceAchievements& getInstance();
 
-    MSeries() : mSelf(*ll::mod::NativeMod::current()) {}
+    MForceAchievements() : mSelf(*ll::mod::NativeMod::current()) {}
 
     [[nodiscard]] ll::mod::NativeMod& getSelf() const { return mSelf; }
 
@@ -23,11 +23,8 @@ public:
     /// @return True if the mod is disabled successfully.
     bool disable() const;
 
-    /// @return True if the mod is unloaded successfully.
-    bool unload() const;
-
 private:
     ll::mod::NativeMod& mSelf;
 };
 
-}  // namespace mseries
+}  // namespace mfa
