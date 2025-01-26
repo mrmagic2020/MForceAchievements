@@ -4,13 +4,15 @@
     "version": "1.0.0",
     "info": {
         "name": "MForceAchievements",
-        "description": "My Mod Description",
+        "description": "A lightweight native mod to keep achievements on.",
         "author": "mrmagic2020",
         "tags": [
             "levilamina",
             "mod",
             "native",
-            "m-series"
+            "m-series",
+            "achievement",
+            "force"
         ]
     },
     "asset_url": "https://github.com/mrmagic2020/MForceAchievements/releases/download/v$(version)/MForceAchievements-windows-x64.zip",
