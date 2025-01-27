@@ -12,9 +12,9 @@ LL_AUTO_TYPE_INSTANCE_HOOK(LevelDataCtorHook, ll::memory::HookPriority::Normal,
         mfa::MForceAchievements::getInstance().getSelf().getLogger();
     logger.debug("Hooked &LevelData::achievementsWillBeDisabledOnLoad");
     if (getGameType() == GameType::Creative) setGameType(GameType::Survival);
-    ll::memory::dAccess<bool>(this, 1284) = false;
-    ll::memory::dAccess<bool>(this, 1324) = false;
-    ll::memory::dAccess<bool>(this, 1325) = false;
+    ll::memory::dAccess<bool>(this, 1284) = false;  // mAchievementsDisabled
+    ll::memory::dAccess<bool>(this, 1504) = false;  // mCheatsEnabled
+    ll::memory::dAccess<bool>(this, 1505) = false;  // mCommandsEnabled
     return false;
 }
 
