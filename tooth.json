@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "MForceAchievements",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "info": {
         "name": "MForceAchievements",
         "description": "A lightweight native mod to keep achievements on.",
