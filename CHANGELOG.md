@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-01-28
+
 ### Fixed
 
 - Fix installation issue regarding lip. (#1)
@@ -18,6 +20,7 @@
 
 All notable changes to this project will be documented in this file.
 
+[1.0.2]: https://github.com/mrmagic2020/MForceAchievements/releases/v1.0.2
 [1.0.1]: https://github.com/mrmagic2020/MForceAchievements/releases/v1.0.1
 [1.0.0]: https://github.com/mrmagic2020/MForceAchievements/releases/v1.0.0
 
