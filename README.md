@@ -8,7 +8,9 @@ A lightweight native mod to keep achievements on.
 
 ### Using Lip
 
-`lip install github.com/mrmagic2020/MForceAchievements`
+```powershell
+lip install github.com/mrmagic2020/MForceAchievements
+```
 
 ### Manual Installation
 

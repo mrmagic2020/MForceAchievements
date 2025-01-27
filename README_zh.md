@@ -8,7 +8,9 @@
 
 ### 使用 Lip
 
+```powershell
 lip install github.com/mrmagic2020/MForceAchievements
+```
 
 ### 手动安装
 

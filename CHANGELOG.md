@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix installation issue regarding lip. (#1)
+
 ## [1.0.1] -2025-01-27
 
 ### Fixed
